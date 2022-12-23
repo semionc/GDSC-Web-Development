@@ -37,7 +37,7 @@ function create_data($post)
     return mysqli_affected_rows($db);
 }
 
-//fungsi mengubah data barang
+//fungsi mengubah data mahasiswa
 function update_data($post)
 {
     global $db;
@@ -60,7 +60,7 @@ function update_data($post)
     return mysqli_affected_rows($db);
 }
 
-//fungsi menghapus data barang
+//fungsi menghapus data mahasiswa
 function delete_data($id_mhs)
 {
     global $db;
